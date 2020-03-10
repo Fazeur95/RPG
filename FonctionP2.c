@@ -143,10 +143,12 @@ void Marchand()
     system("cls");
     printf("Bonjour, Que souhaitez vous acheter ?\n");
     printf ("Vous disposez de %d PO \n", gold);
+    Color(12,0);
     printf("1. Potion de Soin  | 50 PO\n");
     printf("2. Potion de Force | 75 PO \n");
     printf("3. Boost XP        | 50 PO \n");
     printf("4. Rien \n ");
+    Color(15,0);
     int entry = Choice(1,4);
     if (entry == 1 && gold >= 50)
     {
@@ -300,9 +302,11 @@ void Mennan()
 {
     printf("Que puis-je faire pour vous ?\n");
     printf ("Vous disposez de %d PO \n", gold);
+    Color(12,0);
     printf("1. Potion de Soin  | 50 PO\n");
     printf("2. Potion de Force | 75 PO \n");
     printf("3. Rien            | 10 PO \n ");
+    Color(15,0);
     int entry = Choice(1,3);
     if (entry == 1 && gold >= 50)
     {
@@ -540,7 +544,18 @@ while (hp && hpIA > 0)
 if (hpIA <= 0)
     {
         system("cls");
-        printf("Felicitations vous avez termine le jeu");
+        Color(2,0);
+         printf("  ______   ______   .______        ______   .__   __.      ___   ____    ____  __  .______       __    __       _______.\n"
+           " /      | /  __  \\  |   _  \\      /  __  \\  |  \\ |  |     /   \\  \\   \\  /   / |  | |   _  \\     |  |  |  |     /       |\n"
+           "|  ,----'|  |  |  | |  |_)  |    |  |  |  | |   \\|  |    /  ^  \\  \\   \\/   /  |  | |  |_)  |    |  |  |  |    |   (----`\n"
+           "|  |     |  |  |  | |      /     |  |  |  | |  . `  |   /  /_\\  \\  \\      /   |  | |      /     |  |  |  |     \\   \\    \n"
+           "|  `----.|  `--'  | |  |\\  \\----.|  `--'  | |  |\\   |  /  _____  \\  \\    /    |  | |  |\\  \\----.|  `--'  | .----)   |   \n"
+           " \\______| \\______/  | _| `._____| \\______/  |__| \\__| /__/     \\__\\  \\__/     |__| | _| `._____| \\______/  |_______/    \n\n\n\n\n\n\n");
+
+           Color(12,0);
+        printf("Felicitations vous avez terminer le jeu");
+        Sleep(5000);
+        system("cls");
 
     }
 else if (hp <= 0)
@@ -557,24 +572,30 @@ void AttaqueIA2()
     switch(ChoixIA)
     {
     case 1:
-        printf(" COVID-19 utilise  \n");
+        Color(12,0);
+        printf(" COVID-19 utilise : explo-coco-virus \n");
+        Color(15,0);
         printf("Vous perdez de la sante mentale et commencez a avoir de la fievre...");
         printf(" Il vous reste %d de Sante mentale \n", santeMentale );
         if (santeMentale <= 0)
         {
             printf(" Vous devenez fou et sortez tout nu dans les rues d'Ermont \n");
             hp -= 30;
-            printf("Il vous reste %d points de vie \n", hp);
+            printf("Il vous reste %d points de vie \n\n", hp);
         }
     break;
     case 2:
-        printf(" COVID-19 utilise : cora aerien  \n");
+        Color(12,0);
+        printf(" \nCOVID-19 utilise : cora aerien  \n");
+        Color(15,0);
         printf(" Vous commencez a eternuer \n");
         hp -= 20;
-        printf("Il vous reste %d point de vie \n", hp);
+        printf("Il vous reste %d point de vie \n\n", hp);
         break;
     case 3:
-        printf(" COVID-19 utilise : execution du corona\n");
+        Color(12,0);
+        printf(" \nCOVID-19 utilise : execution du corona\n");
+        Color(15,0);
         printf(" Vous perdez la moitie de votre sante mentale \n");
         santeMentale/=2;
         hp -= 25;
@@ -585,9 +606,11 @@ void AttaqueIA2()
 }
 void AttaqueJ2()
 {
+    Color(9,0);
     printf("1. Distribution de desinfectant \n");
-    printf("2. Demandez la fermeture des ecoles \n");
+    printf("2. Demander la fermeture des ecoles \n");
     printf("3. Potions \n");
+    Color(15,0);
     int entry = Choice(1,3);
     switch(entry)
     {
@@ -604,7 +627,7 @@ void AttaqueJ2()
         {
             printf(" Vous demandez la fermeture des ecoles\n");
             hpIA -= 3*force;
-            printf(" Cela fonctionne, il reste %d points de vie\n", hpIA);
+            printf(" Cela fonctionne, il reste a l'ennemi %d points de vie\n", hpIA);
 
         }
     else
