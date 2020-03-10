@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1543313962 source:c:\users\manci\desktop\c\rpg\fonctionrpg.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1543220214 source:c:\users\manci\desktop\c\rpg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1543312843 c:\users\manci\desktop\c\rpg\rpg.h
+
+1543314817 source:c:\users\manci\desktop\c\rpg\fonctionp2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+	"global.h"
+
+1542989646 source:c:\users\manci\desktop\c\rpg\fonctionp3.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1543314400 c:\users\manci\desktop\c\rpg\global.h
+
+1542989646 source:c:\users\manci\desktop\rpg\fonctionp3.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1543313962 source:c:\users\manci\desktop\rpg\fonctionrpg.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1543312843 c:\users\manci\desktop\rpg\rpg.h
+
+1543220214 source:c:\users\manci\desktop\rpg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1543478346 source:c:\users\manci\desktop\rpg\fonctionp2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+	"global.h"
+
+1543478346 c:\users\manci\desktop\rpg\global.h
+
+1583874649 source:c:\users\faoui\onedrive\desktop\rpg test\fonctionp2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+	"global.h"
+
+1583874090 c:\users\faoui\onedrive\desktop\rpg test\rpg.h
+
+1543478346 c:\users\faoui\onedrive\desktop\rpg test\global.h
+
+1542989646 source:c:\users\faoui\onedrive\desktop\rpg test\fonctionp3.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1583873691 source:c:\users\faoui\onedrive\desktop\rpg test\fonctionrpg.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1543220214 source:c:\users\faoui\onedrive\desktop\rpg test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1542989646 source:c:\users\faoui\onedrive\desktop\projet rpg\fonctionp3.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1583875508 source:c:\users\faoui\onedrive\desktop\projet rpg\fonctionrpg.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
+1583874090 c:\users\faoui\onedrive\desktop\projet rpg\rpg.h
+
+1543220214 source:c:\users\faoui\onedrive\desktop\projet rpg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+
