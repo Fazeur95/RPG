@@ -92,7 +92,7 @@
 	<windows.h>
 	<string.h>
 
-1583875508 source:c:\users\faoui\onedrive\desktop\projet rpg\fonctionrpg.c
+1583936065 source:c:\users\faoui\onedrive\desktop\projet rpg\fonctionrpg.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
@@ -105,4 +105,13 @@
 	<stdlib.h>
 	<windows.h>
 	"Rpg.h"
+
+1583935377 source:c:\users\faoui\onedrive\desktop\projet rpg\fonctionp2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Rpg.h"
+	"global.h"
+
+1543478346 c:\users\faoui\onedrive\desktop\projet rpg\global.h
 

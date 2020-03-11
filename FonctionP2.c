@@ -33,7 +33,7 @@ int GestSpawn()
             break;
         }
         case 2:
-        printf("Vous etes en France, a Argenteuil. Attention a votre porte feuille!\n\n ");
+        printf("\n\nVous etes en France, a Argenteuil. Attention a votre porte feuille!\n\n ");
         break;
     }
 }
@@ -205,7 +205,7 @@ void Mouvements()
     switch(move)
     {
     case 0:
-        printf("Vous etes sur la ZUP");
+        printf("\nVous etes dans les Coteaux\n");
         MenuActions();
         break;
     case 1:
@@ -227,7 +227,7 @@ void Mouvements()
         else
         {
         coffre = 1;
-        printf(" Un Homme etrange, vous propose une enigme pour obtenir une recompense.. \n ");
+        printf(" Un Homme etrange, vous propose une enigme pour obtenir une recompense.. \n\n ");
         printf(" Quel club Francais a remporter la ligue des champions ? \n");
         printf(" 1. Paris  \n");
         printf(" 2. Marseille  \n");
@@ -385,9 +385,11 @@ if (hpIA <= 0)
     }
 else if (hp <= 0)
     {
-        Sleep(1000);
+
+
         system("cls");
         printf(" COVID-18 vous contamine !\n");
+        Sleep(5000);
         system("cls");
         Menu();
     }
@@ -436,6 +438,15 @@ void AttaqueJ()
     printf("3. Potions \n");
     Color(15,0);
     int entry = Choice(1,3);
+    if (hp <= 0)
+    {
+        system("cls");
+        Color(12,0);
+        printf(" Vous etes mort ! Le virus vous a terraser ! ");
+        Sleep(5000);
+        system("cls");
+        Menu();
+    }
     switch(entry)
     {
     case 1:
@@ -560,7 +571,9 @@ if (hpIA <= 0)
     }
 else if (hp <= 0)
     {
+
         printf(" Vous etes mort ! Le virus vous a terraser ! ");
+        Sleep(5000);
         system("cls");
         Menu();
     }
